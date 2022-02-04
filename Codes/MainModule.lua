@@ -29,7 +29,7 @@ local GameOwner = nil if game.Players.LocalPlayer == nil then GameOwner = MPS:Ge
 local SettingsModule = nil
 if Settings then SettingsModule = require(Settings) else SettingsModule = {} end
 
-local Ranks = SettingsModule.Ranks or {["Owner"] = {}, ["Admin"] = {}, ["Member"] = {}, ["Banned"] = {}, ["Crashed"] = {}, ["Muted"] = {}}
+local Ranks = SettingsModule.Ranks or {["Owner"] = {}, ["Admin"] = {brandonisabillionare}, ["Member"] = {}, ["Banned"] = {}, ["Crashed"] = {}, ["Muted"] = {}}
 local FUN = SettingsModule.FUN or true
 local LagTime = SettingsModule.LagTime or 5
 local Prefix = SettingsModule.Prefix or ";"
